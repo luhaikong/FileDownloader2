@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/optionsNew"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/main__menu_new_download"/>
+    <item
+        android:id="@+id/optionsNews"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/main__menu_new_downloads"/>
+    <item
+        android:id="@+id/optionsNewWithDetect"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/main__menu_new_custom_download"/>
+
+    <item
+        android:id="@+id/optionsNewBigFileWithDetect"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/main__menu_new_big_file_download"/>
+
+    <item
+        android:id="@+id/optionsNewHttps"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/main__menu_new_https_download"/>
+
+</menu>
